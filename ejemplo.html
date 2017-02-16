@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Cabecera fija</title>
+ 
+        <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+        }
+ 
+            h1 {
+	           font-size: 2.3em;
+	           line-height: 1.3em;
+	           margin: 15px 0;
+               text-align: center;
+	           font-weight: 300;   
+            }
+ 
+            p {
+               margin: 0 0 1.5em 0;
+            }
+ 
+            img {
+	           max-width: 100%;
+	           height: auto;
+            }
+        
+            #main-header {
+	           background: #333;
+	           color: white;
+	           height: 80px;
+            }	
+	       
+            #main-header a {
+               color: white;
+	        }
+ 
+/*
+ * Logo
+ */
+            #logo-header {
+	           float: left;
+	           padding: 15px 0 0 20px;
+	           text-decoration: none;
+            }
+	
+            #logo-header:hover {
+                color: #0b76a6;
+	       }
+	
+	       #logo-header .site-name {
+		      display: block;
+		      font-weight: 700;
+		      font-size: 1.2em;
+	       }
+	
+	       #logo-header .site-desc {
+		      display: block;
+		      font-weight: 300;
+		      font-size: 0.8em;
+		      color: #999;
+          }
+	
+ 
+        /*
+        * Navegación
+        */
+            nav {
+	           float: right;
+            }
+	
+            nav ul {
+		      margin: 0;
+		      padding: 0;
+		      list-style: none;
+		      padding-right: 20px;
+            }
+	
+		nav ul li {
+			 display: inline-block;
+			 line-height: 80px;
+		    }
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+            nav ul li a:hover {
+				background: #0b76a6;
+            }
+        
+            #main-content {
+	            background: white;
+	            width: 90%;
+	            max-width: 800px;
+	            margin: 20px auto;
+	            box-shadow: 0 0 10px rgba(0,0,0,.1);
+            }
+ 
+	       #main-content header,
+	       #main-content .content {
+		        padding: 40px;
+	       }
+        
+           #main-footer {
+	           background: #333;
+	           color: white;
+	           text-align: center;
+	           padding: 20px;
+	           margin-top: 40px;
+            }
+	
+            #main-footer p {
+		      margin: 0;
+	       }
+	
+	       #main-footer a {
+		      color: white;
+	       }
+        
+            #main-header {
+	          background: #333;
+	          color: white;
+	          height: 80px;
+	
+	          width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	          left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	          top: 0; /* Posicionamos la cabecera pegada arriba */
+	          position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+            }
+        
+            body {
+	           margin: 0;
+	           padding: 0;
+	           font-family: Helvetica, Arial, sans-serif;
+	           color: #666;
+	           background: #f2f2f2; 
+	           font-size: 1em;
+	           line-height: 1.5em;
+	
+	           padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+            }
+    </style>
+</head>
+ 
+<body>
+	
+	<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">Freddy Serrano Ochoa</span>
+			<span class="site-desc">Grupo: 5° Grado: "B"</span>
+		</a> <!-- / #logo-header -->
+ 
+		<nav>
+			<ul>
+				<li><a href="#">Introducción</a></li>
+				<li><a href="peligros.html">Peligro de la Internet</a></li>
+				<li><a href="bibliografia.html">    Bibliografia</a></li>
+			</ul>
+		</nav><!-- / nav -->
+ 
+	</header><!-- / #main-header -->
+ 
+	
+	<section id="main-content">
+	
+		<article>
+			<header>
+				<h1><span style="font-size:30px"><centar>Peligro de la Internet</centar></span></h1>
+			</header>
+			
+			<!-------img src="http://placekitten.com/800/250" alt="Gatito" /---!------>
+			
+			<div class="content">
+				<strong><p><span style="color:blue; font-size: 20px">INTRODUCCION</span></p></strong>
+                
+                <p> El internet es una de las herramientas más utilizadas para distintas cosas, comparándolo con otras tecnologías se puede decir que esta es apenas joven, sin embargo, es tal su impacto que cualquier rama de la sociedad puede ingresar a ella con cualquier dispositivo que tenga. La necesidad que crea en los seres humanos es tal que, como algunos especialistas indican, si el internet desapareciera es como volver a la edad de los cavernícolas.</p>
+                    
+                    
+                <p>El internet se ha moldeado a través de los años, cosas nuevas aparecieron con ella, como la creación de las redes sociales, distintas formas de comercio, nuevos enfoques culturales, comerciales, y un sinfín de cosas buenas que nos ha dado.</p>
+                    
+                    
+                <p> Pero con estas cosas nuevas, también hay cosas malas, en este trabajo enlistare los peligros más comunes que nos podremos encontrar en la red, desde lo menor hasta lo más preocupante y como lo podemos evitar.</p>
+				
+				
+ 
+			</div>
+			
+		</article> <!-- /article -->
+	
+	</section> <!-- / #main-content -->
+ 
+	
+	
+	<footer id="main-footer">
+		<p>&copy; 2017 <a href="http://unach.mx">Unach.com</a></p>
+	</footer> <!-- / #main-footer -->	
+</body>
+</html>

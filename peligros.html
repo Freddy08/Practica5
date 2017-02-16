@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Cabecera fija</title>
+ 
+        <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+        }
+ 
+            h1 {
+	           font-size: 2.3em;
+	           line-height: 1.3em;
+	           margin: 15px 0;
+               text-align: center;
+	           font-weight: 300;   
+            }
+ 
+            p {
+               margin: 0 0 1.5em 0;
+            }
+ 
+            img {
+	           max-width: 100%;
+	           height: auto;
+            }
+        
+            #main-header {
+	           background: #333;
+	           color: white;
+	           height: 80px;
+            }	
+	       
+            #main-header a {
+               color: white;
+	        }
+ 
+/*
+ * Logo
+ */
+            #logo-header {
+	           float: left;
+	           padding: 15px 0 0 20px;
+	           text-decoration: none;
+            }
+	
+            #logo-header:hover {
+                color: #0b76a6;
+	       }
+	
+	       #logo-header .site-name {
+		      display: block;
+		      font-weight: 700;
+		      font-size: 1.2em;
+	       }
+	
+	       #logo-header .site-desc {
+		      display: block;
+		      font-weight: 300;
+		      font-size: 0.8em;
+		      color: #999;
+          }
+	
+ 
+        /*
+        * Navegación
+        */
+            nav {
+	           float: right;
+            }
+	
+            nav ul {
+		      margin: 0;
+		      padding: 0;
+		      list-style: none;
+		      padding-right: 20px;
+            }
+	
+		nav ul li {
+			 display: inline-block;
+			 line-height: 80px;
+		    }
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+            nav ul li a:hover {
+				background: #0b76a6;
+            }
+        
+            #main-content {
+	            background: white;
+	            width: 90%;
+	            max-width: 800px;
+	            margin: 20px auto;
+	            box-shadow: 0 0 10px rgba(0,0,0,.1);
+            }
+ 
+	       #main-content header,
+	       #main-content .content {
+		        padding: 40px;
+	       }
+        
+           #main-footer {
+	           background: #333;
+	           color: white;
+	           text-align: center;
+	           padding: 20px;
+	           margin-top: 40px;
+            }
+	
+            #main-footer p {
+		      margin: 0;
+	       }
+	
+	       #main-footer a {
+		      color: white;
+	       }
+        
+            #main-header {
+	          background: #333;
+	          color: white;
+	          height: 80px;
+	
+	          width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	          left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	          top: 0; /* Posicionamos la cabecera pegada arriba */
+	          position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+            }
+        
+            body {
+	           margin: 0;
+	           padding: 0;
+	           font-family: Helvetica, Arial, sans-serif;
+	           color: #666;
+	           background: #f2f2f2; 
+	           font-size: 1em;
+	           line-height: 1.5em;
+	
+	           padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+            }
+    </style>
+</head>
+ 
+<body>
+	
+	<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">Freddy Serrano Ochoa</span>
+			<span class="site-desc">Grupo: 5° Grado: "B"</span>
+		</a> <!-- / #logo-header -->
+ 
+		<nav>
+			<ul>
+				<li><a href="ejemplo.html">Introducción</a></li>
+				<li><a href="#">Peligro de la Internet</a></li>
+				<li><a href="bibliografia.html">    Bibliografia</a></li>
+			</ul>
+		</nav><!-- / nav -->
+ 
+	</header><!-- / #main-header -->
+ 
+	
+	<section id="main-content">
+	
+		<article>
+			<header>
+				<h1><span style="font-size:30px"><centar>Peligro de la Internet</centar></span></h1>
+			</header>
+			
+			<!-------img src="http://placekitten.com/800/250" alt="Gatito" /---!------>
+			
+			<div class="content">
+				<strong><p><span style="color:blue; font-size: 20px"> PELIGROS DEL INTERNET</span></p></strong>
+                
+               
+                <p>Todo el que navega en el internet tiene que saber que es vulnerable a cualquier problema, hay organizaciones especializadas que se encargan de dar asesoramiento a los internautas en cómo proteger ciertos datos, por ejemplo, Facebook forma parte de una amplia comunidad de seguridad en línea. La red social colabora con un grupo de organizaciones y expertos dedicados a la seguridad en Internet, llamado Safety Advisory Board (Consejo asesor de seguridad de Facebook), que ofrece asesoramiento en materia de seguridad. Pertenecen a este consejo: Childnet International, ConnectSafely, The Family Online Safety Institute, The National Network to End Domestic Violence y WiredSafety.</p>
+                <br>
+                
+                <p>Tomando en cuenta ciertos informes de algunas organizaciones que apoyan a los usuarios, estos son los peligros que tienen constantemente perjudican a cierta parte de la población desde los niños o jóvenes, hasta los más adultos.</p>
+                
+                <ol>
+                    <li>El phishing.</li>
+                    <br>
+                    <p>El phishing es un término utilizado para referirse al método de estafa que utilizan ciertos criminales cibernéticos para obtener tus datos personales, como claves de tarjetas de créditos u otra información bancaria.</p>
+                    
+                    <p>Por lo general los estafadores utilizan técnicas de ingeniería social, haciéndose pasar por personas que están involucradas en empresas de confianza, tratándote de contactar por medio de correos, mensajerías instantáneas, redes sociales, SMS/MMS, o inclusas llamadas telefónicas.</p>
+                    
+                    <p>Algunos consejos para evitar el ataque de un phishing según panda security es saber a aprender a identificar aspectos raros o poco comunes en un correo electrónico, verificar la fuente de la información de los correos entrantes, nunca entrar a páginas web pulsando los links incluidos en correos electrónicos, reforzar la seguridad del ordenador, introducir datos personales en sitios de webs seguras, revisar cuentas periódicamente, etc.</p>
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3jJVlsHlzW0" frameborder="0" allowfullscreen></iframe>
+                    <br><br>
+                    <br>
+                    <li>Malware</li>
+                    
+                    <p>Malicious software o Malware es un término que se le da a los programas o códigos maliciosos que solo buscan la destrucción, el daño, el mal funcionamiento o pérdida total de un sistema.</p>
+                    
+                    <p>Hay una clasificación para malware, por ejemplo, están los:</p>
+                    <ul>
+                        <li>Virus.</li>
+                        <li>Caballos de Troya (troyanos).</li>
+                        <li>Puertas traseras (backdoors).</li>
+                        <li>Gusanos de Internet (worms).</li>
+                        <li>Bots.</li>
+                        <li>Spyware.</li>
+                        <li>Adware.</li>
+                        <li>Combinaciones de las anteriores</li>
+                    </ul>
+
+                    <p>Algunos de los síntomas que tu equipo puede presentar cuando es afectado por algún código malicioso pueden ser por ejecución de procesos desconocidos en tu sistema, procesamiento lento, interrupción de la conexión a Internet en ciertos momentos, comportamiento extraño, aparición de ventanas de mensajes emergentes.</p>
+                    
+                    <p>Sin embargo, estos síntomas pueden variar dependiendo del tipo de malware que infecte a tu equipo ya que varían según las necesidades de los que hacen estos malware.</p>
+                    
+                    <p>Algunos consejos que dan es tener un buen antivirus instalado de ejecución a tiempo real, ya que estos son más seguros y sus actualizaciones constantes van mejorando al sistema ante peligros nuevos.</p>
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/p7aF4rh-H14" frameborder="0" allowfullscreen></iframe><br><br>
+                    <br>
+                    <li>Robo De Información</li>
+                    
+                    <p>El robo de información se ha estado haciendo cada vez más fácil, con la inclusión de las redes sociales esta práctica está siendo más popular. Toda la información que es enviada por la internet puede ser interceptada por un tercero. la información que buscan es la información personal, desde nombres, donde se vive, tu familia, cuentas bancarias, etc. Los más vulnerables son los menores puesto que ellos aún no saben los peligros que esta conlleva y pueden exponer al menor de edad a la perdida de dinero o al robo de identidad.</p>
+                    
+                    <p>En esta parte, los problemas mencionados están más orientados a las redes sociales, problemas comunes que pueden llevar al peligro a todo tipo de personas.</p>
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wRyNbgRb11Y" frameborder="0" allowfullscreen></iframe>
+                    <br><br>
+                    <br>
+                    <li>El Acoso En Línea</li>
+                    
+                    <p>El bullying son casos de acosos, desde el acoso verbal hasta el acoso físico, y estas son llevadas a cabo en escuelas, comúnmente por menores en etapas escolar son afectados. Casos muy grandes y graves sobre el bullying se han llevado al internet, a este tipo de acosos son llamados ciberbullying.</p>
+                    
+                    <p>Intimidación, exclusión y maltrato son caras de un mismo problema. Personas que reciben mensajes hirientes, intimidatorios y humillantes se envían a diario generando miedo y dolor en las víctimas y la diversión del acosador. Secretos descubiertos, rumores falsos, reputaciones arruinadas, un hostigamiento continuo.</p>
+                    
+                    <p>Esta es quizá una de los principales peligros de las redes sociales que los padres temen para sus hijos. Un problema que puede empezar en la escuela, como un juego entre sus amigos pero que también puede involucrar a gente adulta que aprovecha la facilidad de crear perfiles falsos en estas plataformas.</p>
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dG43ZyiYkQM" frameborder="0" allowfullscreen></iframe>
+                    <br><br>
+                    <br>
+                    <li>Incitación Al Odio</li>
+                    
+                    <p>Personas que tienen la oportunidad del anonimato en internet aprovechan para dejar prejuicios, mensajes de odio, intolerancia, discriminación por su género, raza, religión, preferencias sexuales, entre otros motivos.</p>
+                    
+                    <p>La incitación el odio no es específicamente de las redes sociales, sin embargo, en ellas tienen más impacto social, y es más fácil la distribución de la idea dada. Según una encuesta de Facebook los grupos sociales más afectados son los judíos, católicos, musulmanes, hindúes, homosexuales, mujeres, inmigrantes y las minorías.</p>
+                    
+                    <p>En mayo del 2010 Facebook se vio presionado a cerrar el grupo “Yo también odio a los judíos”, un espacio que promovía el aborrecer a un colectivo humano e incitaba a la violencia en contra de esa comunidad. En YouTube a diario se suben videos de contenidos agresivos y discriminatorios. Las redes también pueden ser entonces espacios en donde pareciera más fácil organizar y juntar estos odios, haciéndolos más visibles.</p>
+				
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TvhT0y09u7k" frameborder="0" allowfullscreen></iframe>
+                </ol>
+
+			</div>
+			
+		</article> <!-- /article -->
+	
+	</section> <!-- / #main-content -->
+ 
+	
+	
+	<footer id="main-footer">
+		<p>&copy; 2017 <a href="http://unach.mx">Unach.com</a></p>
+	</footer> <!-- / #main-footer -->	
+</body>
+</html>
